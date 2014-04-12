@@ -15,7 +15,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #444444;
+  color: #ffffff;
+  text-shadow: -2px 1px 0px rgba(0, 16, 168, 1);
 }
 
 h1 {
@@ -31,6 +32,12 @@ h2 {
 p {
   font-size: 20px;
 }
+
+a {
+  color: skyblue;
+}
+
+a:hover { color: pink; }
 
 img {
   margin-bottom: 50px;
@@ -63,6 +70,7 @@ footer {
 
 .slide-even {
   z-index: 2;
+  background-image: url('http://macmanx.files.wordpress.com/2010/09/ocean-water-near-kauai.jpg');
   background-color: white;
   text-align: center;
 }
@@ -74,6 +82,22 @@ footer {
 
 #slide-1 h2 {
   margin-top: 200px;
+}
+
+#slide-1, #slide-9 {
+  background-image: url('../images/tile2.jpg');
+}
+
+#slide-3 {
+  background-image: url('../images/photo4.jpg');
+}
+
+#slide-5 {
+  background-image: url('../images/photo8.jpg');
+}
+
+#slide-7 {
+  background-image: url('../images/photo2.jpg');
 }
 
 
