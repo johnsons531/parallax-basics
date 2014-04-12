@@ -66,6 +66,7 @@ footer {
 .slide-odd {
   background-color: gray;
   height: 700px;
+  background-attachment: fixed;
 }
 
 .slide-even {
